@@ -1,0 +1,244 @@
+[
+  {
+    "ContainingType": "StripeApi.Controllers.CustomerController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Customer/create-customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDto",
+        "Type": "StripeApi.Model.CustomerCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.CustomerController",
+    "Method": "ListAllCustomers",
+    "RelativePath": "api/Customer/list-all-customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Stripe.Customer, Stripe.net, Version=44.2.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.CustomerController",
+    "Method": "UpdateCustomer",
+    "RelativePath": "api/Customer/update-customer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDto",
+        "Type": "StripeApi.Model.CustomerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "AttachPaymentMethod",
+    "RelativePath": "api/PaymentIntents/attach-payment-method",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.AttachPaymentMethodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "ConfirmPaymentIntent",
+    "RelativePath": "api/PaymentIntents/confirm-payment-intent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.ConfirmPaymentIntentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "CreatePaymentIntent",
+    "RelativePath": "api/PaymentIntents/create-payment-intent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.CreatePaymentIntentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "CreatePaymentMethod",
+    "RelativePath": "api/PaymentIntents/create-payment-method",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.CreatePaymentMethodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "CreatePrice",
+    "RelativePath": "api/PaymentIntents/create-price",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.CreatePriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/PaymentIntents/create-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.CreateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "CreateSubscription",
+    "RelativePath": "api/PaymentIntents/create-subscription",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.CreateSubscriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "ListPaymentIntents",
+    "RelativePath": "api/PaymentIntents/list-payment-intents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Stripe.PaymentIntent, Stripe.net, Version=44.2.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "ListSubscriptions",
+    "RelativePath": "api/PaymentIntents/list-subscription",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "UpdatePaymentIntent",
+    "RelativePath": "api/PaymentIntents/update-payment-intent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.UpdatePaymentIntentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/PaymentIntents/update-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.UpdateProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StripeApi.Controllers.PaymentIntentsController",
+    "Method": "UpdateSubscription",
+    "RelativePath": "api/PaymentIntents/update-subscription",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StripeApi.Model.UpdateSubscriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
